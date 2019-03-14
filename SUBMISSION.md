@@ -5,6 +5,7 @@ file the show:
 DOCKER
 5 pts Your dockerfile. Please provide a link to this file rather than a screen capture.
 https://github.com/tfczajka/spring-petclinic/blob/master/Dockerfile
+
 5 pts Your running docker instance as shown by a ps command.
 ![Screen Capture #1](images_HW8/first.png)
 5 pts Your browser accessing the main page of the website from your local container.
@@ -29,6 +30,7 @@ https://github.com/tfczajka/spring-petclinic/blob/master/docker-compose.yml
 5 pts Your updated application-mysql.properties file containing the URL change for
 the database server. Please provide a link to this file rather than a screen capture.
 https://github.com/tfczajka/spring-petclinic/blob/master/src/main/resources/application-mysql.properties
+
 5 pts The output from the docker-compose up command.
 ![Screen Capture #6](images_HW8/dockerup.png)
 5 pts Your browser accessing the “Veterinarians” page of the website from your local container.
