@@ -1,29 +1,31 @@
-5 pts Your Github account showing that is has been forked from the depaulcdm/springpetclinicrepository
-![Screen Capture #1](images/one.png)
+Deliverables [50 pts]
+For this week, please provide screen captures uploaded and embedded into the SUBMISSIONS.md
+file the show:
 
-5 pts Your Travis CI dashboard showing a successful first build.
-![Screen Capture #1](images/two.png)
+DOCKER
+5 pts Your dockerfile. Please provide a link to this file rather than a screen capture.
+5 pts Your running docker instance as shown by a ps command.
+![Screen Capture #1](images_HW8/first.png)
+5 pts Your browser accessing the main page of the website from your local container.
+![Screen Capture #2](images_HW8/second.png)
 
-5 pts The section of the POM file showing the coordinates after you’ve changed them.
-![Screen Capture #1](images/three.png)
+DOCKER COMPOSE - MYSQL ONLY
+5 pts The output from the docker-compose up command.
+![Screen Capture #3](images_HW8/third.png)
+5 pts Your browser accessing the “Veterinarians” page of the website from your local container
+when you run the application from the host system.
+![Screen Capture #4](images_HW8/fourth.png)
+5 pts A section of the stack trace generated when you attempt to run the application
+container that has been updated to use MySQL.
+![Screen Capture #5](images_HW8/five.png)
 
-5 pts Your Travis CI dashboard showing a successful build after your change of the groupID.
-![Screen Capture #1](images/four.png)
-
-5 pts The section of the POM file showing the coordinates after you’ve commented themout.
-![Screen Capture #1](images/five.png)
-
-5 pts Your Travis CI dashboard showing the unsuccessful build after the breaking change.
-![Screen Capture #1](images/six.png)
-
-5 pts Your Github repository with the readme.md file selected showing the build failedstatus after the Travis CI build fails.
-![Screen Capture #1](images/seven.png)
-
-5 pts The section of the POM file showing the coordinates after you’ve fixed them.
-![Screen Capture #1](images/eight.png)
-
-5 pts Your Travis CI dashboard showing the successful build after the breaking change hasbeen fixed.
-![Screen Capture #1](images/nine.png)
-
-5 pts Your Github repository with the readme.md file selected showing the build successstatus after the Travis CI build has recovered.
-![Screen Capture #1](images/ten.png)
+DOCKER COMPOSE - APP SERVER AND MYSQL
+5 pts Your updated docker-compose.yml file containing the application server, built from
+your local Dockerfile, and the existing MySQL configuration. Please provide a link
+to this file rather than a screen capture.
+5 pts Your updated application-mysql.properties file containing the URL change for
+the database server. Please provide a link to this file rather than a screen capture.
+5 pts The output from the docker-compose up command.
+![Screen Capture #6](images_HW8/dockerup.png)
+5 pts Your browser accessing the “Veterinarians” page of the website from your local container.
+![Screen Capture #7](images_HW8/last.png)
